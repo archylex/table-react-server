@@ -1,0 +1,22 @@
+{
+  "name": "table-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "archylex",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "pg": "^8.8.0"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
